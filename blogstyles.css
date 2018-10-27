@@ -40,6 +40,9 @@ naZv ul {
   flex-wrap: wrap;
   justify-content: center;
   list-style-type: none;
+  width: auto;
+  max-width: 100%;
+  height: auto;
 }
 /*Sets background color of nav list elements and their width and height*/
 nav ul li {
