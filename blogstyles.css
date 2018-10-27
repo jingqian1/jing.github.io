@@ -25,7 +25,10 @@ header {
   width: auto;
   max-width: 100%;
   height: auto;
-
+}
+body {
+  background-image: url("artzebra.png");
+  background-repeat: no-repeat;
 }
 img {
   width: auto;
