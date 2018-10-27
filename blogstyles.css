@@ -26,7 +26,7 @@ header {
 so at smaller size-mobile width--it wraps vertically in a row
 and at larger screen widths it spreads more horizontally.
 And justify-content centers flex blox content*/
-nav ul {
+naZv ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -63,7 +63,7 @@ which page you are on--in this case the home page*/
 }
 
 article {
-  font-family: 'Sree Krushnadevaraya', serif;
+font-family: 'EB Garamond', serif;
   color: #e7d067;
   background-color: #43676B;
   padding-left: 2rem;
