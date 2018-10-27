@@ -20,6 +20,7 @@ header {
   text-align: center;
   font-family: 'Press Start 2P', cursive;
   font-size: 1.7em;
+  font-wide: auto;
   color: white;
   width: auto;
   max-width: 100%;
@@ -28,7 +29,7 @@ header {
 }
 img {
   width: auto;
-  max-width: 70%;
+  max-width: 85%;
   height: auto;
 }
 /*Unordered list in the navbar is set to display flex with wrapping
