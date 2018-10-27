@@ -21,6 +21,15 @@ header {
   font-family: 'Press Start 2P', cursive;
   font-size: 1.7em;
   color: white;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+
+}
+img {
+  width: auto;
+  max-width: 50%;
+  height: auto;
 }
 /*Unordered list in the navbar is set to display flex with wrapping
 so at smaller size-mobile width--it wraps vertically in a row
@@ -46,7 +55,7 @@ nav ul li {
 /*Takes away the default underlining of links and sets color of menu font*/
 nav ul li a {
   text-decoration: none;
-  font-size: 2em;
+  font-size: 1.6em;
 
 font-family: 'Libre Barcode 39 Text', cursive;
 
@@ -63,13 +72,24 @@ which page you are on--in this case the home page*/
 }
 
 article {
-font-family: 'EB Garamond', serif;
+  font-family: 'EB Garamond', serif;
   color: #e7d067;
   background-color: #43676B;
   padding-left: 2rem;
   padding-right: 2rem;
 }
-
+article img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+/*
+article img {
+  width: 70%;
+  border-style: solid;
+  border: 1px;
+}
+*/
 footer {
   background: #a2d492;
   padding: 2rem;
