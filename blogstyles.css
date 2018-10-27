@@ -15,12 +15,12 @@ font-family: 'Bungee Shade', cursive;
 font-family: 'Libre Barcode 39 Extended Text', cursive;
 font-family: 'Libre Barcode 128 Text', cursive;*/
 header {
-  background: #002C25;
+  background-image: linear-gradient(#002C25 10%, black);
   padding: 2rem;
   text-align: center;
   font-family: 'Press Start 2P', cursive;
   font-size: 1.7em;
-  font-wide: auto;
+
   color: white;
   width: auto;
   max-width: 100%;
@@ -28,7 +28,7 @@ header {
 }
 body {
   background-image: url("artzebra.png");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 img {
   width: auto;
@@ -58,11 +58,14 @@ nav ul li {
   border: solid;
   border-width: 1px;
   text-align: center;
+  width: auto;
+  max-width: 100%;
+  height: auto;
 }
 /*Takes away the default underlining of links and sets color of menu font*/
 nav ul li a {
   text-decoration: none;
-  font-size: 1.6em;
+  font-size: 2em;
 
 font-family: 'Libre Barcode 39 Text', cursive;
 
@@ -78,13 +81,23 @@ which page you are on--in this case the home page*/
   background: #4b8552;
 }
 
+article h2{
+  font-family: 'Press Start 2P', cursive;
+  color: #e7d067;
+  background-color: #4b8552;
+  background-image: linear-gradient(#43675B 90%);
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 article {
   font-family: 'EB Garamond', serif;
   color: #e7d067;
   background-color: #43676B;
+  background-image: linear-gradient(#43676B 10%, black);
   padding-left: 2rem;
   padding-right: 2rem;
 }
+
 article img {
   width: auto;
   max-width: 100%;
