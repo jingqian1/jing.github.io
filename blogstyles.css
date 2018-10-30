@@ -24,6 +24,7 @@ header {
   width: auto;
   max-width: 100%;
   height: auto;
+  overflow: auto;
 
 }
 .clearfix{
@@ -52,6 +53,8 @@ naZv ul {
   width: auto;
   max-width: 100%;
   height: auto;
+  margin: auto;
+  padding: 0;
 }
 
 
@@ -61,7 +64,7 @@ nav ul li {
   background: #002C25;
   height: 2rem;
   width: 36rem;
-  padding-top: 1rem;
+  padding-top: .5rem;
   border-color: black;
   border: solid;
   border-width: 1px;
@@ -69,6 +72,7 @@ nav ul li {
   width: auto;
   max-width: 100%;
   height: auto;
+  text-decoration: none;
 }
 /*Takes away the default underlining of links and sets color of menu font*/
 nav ul li a {
