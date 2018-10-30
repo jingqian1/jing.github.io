@@ -24,6 +24,10 @@ header {
   width: auto;
   max-width: 100%;
   height: auto;
+
+}
+.clearfix{
+  overflow: auto;
 }
 body {
   background-image: url("artzebra.png");
@@ -33,6 +37,8 @@ img {
   width: auto;
   max-width: 85%;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*Unordered list in the navbar is set to display flex with wrapping
 so at smaller size-mobile width--it wraps vertically in a row
