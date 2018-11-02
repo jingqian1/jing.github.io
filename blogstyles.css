@@ -58,13 +58,18 @@ nav ul li {
   list-style-type: none;
   background: #002C25;
   height: 2rem;
-  width: 36rem;
+  width: auto;
   padding-top: .5rem;
   border-color: black;
   border-width: 1px;
   text-align: center;
   max-width: 100%;
   text-decoration: none;
+}
+nav ul{
+  padding-left: 10%;
+  padding-right: 10%;
+
 }
 
 /*Takes away the default underlining of links and sets color of menu font*/
