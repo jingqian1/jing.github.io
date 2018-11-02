@@ -9,13 +9,6 @@ in the middle of the browser no matter how wide you stretch the browser*/
   grid-template-columns: 1fr;
   grid-template-rows: 2fr
 }
-.container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr .5fr 1.6fr 1.6fr 0.2fr;
-  max-width: 80vw;
-  margin: auto;
-}
 
 header {
   background-image: linear-gradient(#002C25 10%, black);
@@ -35,7 +28,6 @@ header {
 .clearfix {
   overflow: auto;
 }
-
 
 body {
   background-image: url("artzebra.png");
@@ -79,10 +71,10 @@ nav ul li {
   max-width: 100%;
   text-decoration: none;
 }
-nav ul{
+
+nav ul {
   padding-left: 10%;
   padding-right: 10%;
-
 }
 
 /*Takes away the default underlining of links and sets color of menu font*/
@@ -108,7 +100,7 @@ article h2 {
   font-family: 'Press Start 2P', cursive;
   color: #e7d067;
   background-color: #4b8552;
-/*  background-image: #43675B ;*/
+  /*  background-image: #43675B ;*/
   padding-left: 2rem;
   padding-right: 2rem;
 }
