@@ -5,6 +5,16 @@ in the middle of the browser no matter how wide you stretch the browser*/
   /*everything will automatically center*/
   margin: auto;
   width: 90vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr .5fr 1.6fr 1.6fr 0.2fr;
+  max-width: 80vw;
+  margin: auto;
 }
 
 header {
@@ -19,6 +29,7 @@ header {
   max-width: 90%;
   height: auto;
   overflow: auto;
+  grid-row: 1/2
 }
 
 .clearfix {
