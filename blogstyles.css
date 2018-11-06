@@ -65,6 +65,7 @@ nav ul li {
   height: 2rem;
   width: auto;
   padding-top: .5rem;
+  padding-bottom: .5rem;
   border-color: black;
   border-width: 2px;
   text-align: center;
