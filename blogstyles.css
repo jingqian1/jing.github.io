@@ -19,14 +19,10 @@ header {
   font-size: 1.30em;
   color: white;
   width: auto;
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
   overflow: auto;
   grid-row: 1/2
-}
-
-.clearfix {
-  overflow: auto;
 }
 
 body {
@@ -91,6 +87,10 @@ nav ul li:active {
   background: #E9892f;
 }
 
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
 /*This class should be applied to html differently on each page to let user know
 which page you are on--in this case the home page*/
 .locationmarker {
@@ -102,6 +102,8 @@ article h2 {
   color: #e7d067;
   background-color: #4b8552;
   /*  background-image: #43675B ;*/
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   padding-left: 2rem;
   padding-right: 2rem;
 
