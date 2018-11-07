@@ -88,7 +88,7 @@ nav ul li a {
 
 /*Active psuedoclass is used so When you click on a menu item it turns orange.*/
 nav ul li:active {
-  background: #e9892f;
+  background: #E9892f;
 }
 
 /*This class should be applied to html differently on each page to let user know
@@ -104,15 +104,17 @@ article h2 {
   /*  background-image: #43675B ;*/
   padding-left: 2rem;
   padding-right: 2rem;
+
 }
 
 article {
   font-family: 'EB Garamond', serif;
-  color: #e7d067;
+  color: #f4e6a8;
   background-color: #43676B;
   background-image: linear-gradient(#43676B 10%, black);
   padding-left: 2rem;
   padding-right: 2rem;
+  font-size: 16pt;
 }
 
 article img {

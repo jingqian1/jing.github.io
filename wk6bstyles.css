@@ -28,32 +28,6 @@ h2 {
   font-size: 1rem;
 }
 
-/*
-nav ul {
-  display: flex;
-  justify-content: space-between;
-  display: inline-grid;
-  list-style-type: none;
-  max-width: 100%
-}
-
-li a {
-  display: inline-grid;
-  color: green;
-  text-align: center;
-  text-decoration: none;
-  background: #002C25;
-}
-
-li a:hover {
-  background-color: black;
-}
-
-li {
-  display: inline;
-  grid-row: 2;
-}
-*/
 ul {
   list-style-type: none;
   margin: 0;
