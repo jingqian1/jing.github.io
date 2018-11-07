@@ -3,11 +3,13 @@
   margin: auto;
   width: 90vw;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 2fr
+  grid-template-columns: 100fr;
+  grid-template-rows: 2fr, 2fr, 2fr, 2fr;
 }
 
 header {
+  grid-row: 1;
+  grid-column: 1 / 2;
   background-image: linear-gradient(#002C25 10%, black);
   background-size: auto 100%;
   padding: 2rem;
@@ -36,6 +38,8 @@ img {
 }
 
 naZv ul {
+  grid-row: 1;
+  grid-column: 2 / 3;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
