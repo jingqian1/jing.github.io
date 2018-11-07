@@ -50,7 +50,6 @@ naZv ul {
   margin: auto;
   padding: 0;
 }
-
 /*Sets background color of nav list elements and their width and height*/
 nav ul li {
   list-style-type: none;
@@ -99,7 +98,6 @@ article h2 {
   padding-bottom: 1rem;
   padding-left: 2rem;
   padding-right: 2rem;
-
 }
 
 article {
