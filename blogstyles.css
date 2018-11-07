@@ -108,13 +108,13 @@ article h2 {
 }
 
 article {
-  font-family: 'EB Garamond', serif;
+  font-family: 'Raleway', sans-serif;
   color: #f4e6a8;
   background-color: #43676B;
   background-image: linear-gradient(#43676B 10%, black);
   padding-left: 2rem;
   padding-right: 2rem;
-  font-size: 16pt;
+  font-size: 14pt;
 }
 
 article img {
