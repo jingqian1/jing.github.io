@@ -118,6 +118,14 @@ article img {
   height: auto;
 }
 
+a:link {
+  color: #E9892f;
+}
+
+a:visited {
+  color: #4b8552;
+}
+
 footer {
   background-color: #4b8552;
   padding: 0.5rem;
