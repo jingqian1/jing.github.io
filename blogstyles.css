@@ -122,6 +122,10 @@ a:link {
   color: white;
 }
 
+a:visited {
+  color: #f4e6a8;
+}
+
 footer {
   background-color: #4b8552;
   padding: 0.5rem;
