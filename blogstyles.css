@@ -116,7 +116,9 @@ article img {
   max-width: 100%;
   height: auto;
 }
-
+a:link {
+    color: green;
+}
 footer {
   background-color: #4b8552;
   padding: 0.5rem;
