@@ -1,0 +1,53 @@
+.pagecontainer {
+  /*everything will automatically center*/
+  margin: auto;
+  width: 90vw;
+
+}
+
+@media (min-width: 900px) {
+.feature {
+		width: 100%;
+float: none;
+
+
+}
+}
+header {
+
+  background-image: linear-gradient(#002C25 10%, Grey);
+  background-size: auto 100%;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.30em;
+
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  overflow: auto;
+
+}
+/* The navbar container */
+.nav {
+	justify-content: center;
+	text-align: center;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Navbar links */
+.nav a {
+
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Links - change color on hover */
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
