@@ -44,10 +44,11 @@ body {
 
     float: left;
     display: block;
-    color: white;
+    color: blue;
     text-align: center;
     padding: 14px 16px;
     text-decoration:underline;
+
 }
 
 /* Links - change color on hover */
@@ -73,6 +74,7 @@ body {
 }
 
 .button {
+
   width: 100%;
   padding: 15px 25px;
   font-size: 24px;
@@ -84,6 +86,7 @@ body {
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #94CC14;
+  border-bottom: 2px solid #555;
 }
 
 .button:hover {background-color: #FFE200}
