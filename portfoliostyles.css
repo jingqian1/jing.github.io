@@ -14,21 +14,19 @@
 }
 }
 header {
-
-    background-image: linear-gradient(#656987 10%, black);
     background-size: auto 100%;
     padding: 2rem;
     text-align: center;
     font-family: 'EB Garamond', serif;
-    font-size: 1.30em;
+    font-size: 2em;
     color: white;
+    text-shadow: 2px 2px 4px  #FFE200;
     width: auto;
     max-width: 100%;
     height: auto;
     overflow: auto;
-
-
 }
+
 body {
   background-image: url("IMG_1608.jpg");
   background-repeat: repeat;
@@ -54,23 +52,44 @@ body {
 
 /* Links - change color on hover */
 .nav a:hover {
-    background-color: #ddd;
+    background-color: #FFE200;
 
 }
 
 .flex-container {
   display: flex;
-
-  flex-direction: column-reverse;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .flex-container > div {
   background-color: #f1f1f1;
   margin: 10px;
   padding: 20px;
-  font-size: 30px;
-max-width: 60vw;
-  image{
-    height:400px;
-    }
+  font-size: 14pt;
+  max-width: 60vw;
+
+}
+
+.button {
+  width: 100%;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #FFE613;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #94CC14;
+}
+
+.button:hover {background-color: #FFE200}
+
+.button:active {
+  background-color: #FFD700;
+  box-shadow: 0 5px #94CC14;
+  transform: translateY(4px);
 }
