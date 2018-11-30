@@ -45,7 +45,10 @@ section botton{
   text-decoration:underline;
 }
 /* Navbar links */
-.nav a {
+.botton a:link {
+    color: red;
+}
+.botton a {
 
     float: left;
     display: block;
