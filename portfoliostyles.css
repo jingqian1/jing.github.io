@@ -15,24 +15,30 @@
 }
 header {
 
-  background-image: auto 100%;
-  background-size: auto 100%;
-  padding: 2rem;
-  text-align: center;
-  font-size: 1.30em;
+    background-image: linear-gradient(#656987 10%, black);
+    background-size: auto 100%;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.30em;
+    color: white;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    overflow: auto;
 
-  width: auto;
-  max-width: 100%;
-  height: auto;
-  overflow: auto;
 
+}
+body {
+  background-image: url("IMG_1608.jpg");
+  background-repeat: repeat;
 }
 /* The navbar container */
 .nav {
 	justify-content: center;
 	text-align: center;
     overflow: hidden;
-    background-color: #333;
+
 }
 
 /* Navbar links */
@@ -40,14 +46,31 @@ header {
 
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration:underline;
 }
 
 /* Links - change color on hover */
 .nav a:hover {
     background-color: #ddd;
-    color: black;
+
+}
+
+.flex-container {
+  display: flex;
+
+  flex-direction: column-reverse;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+max-width: 60vw;
+  image{
+    height:400px;
+    }
 }
