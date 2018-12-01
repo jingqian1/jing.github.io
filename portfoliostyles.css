@@ -79,8 +79,8 @@ section botton{
   max-width: 60vw;
 
 }
-.flex-container div work1{
-  background-color:lightblue;
+#flex-container >.work1{
+  color:lightblue;
 }
 
 .button {
@@ -106,4 +106,20 @@ section botton{
   background-color: #FFD700;
   box-shadow: 0 5px #94CC14;
   transform: translateY(4px);
+}
+
+.aboutme {
+
+    padding: 20px;
+  background-color: #FFD700;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer {
+  background-color: #4b8552;
+  padding: 0.5rem;
+  text-align: center;
+
 }
