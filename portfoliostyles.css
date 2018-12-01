@@ -28,7 +28,7 @@ header {
 }
 
 body {
-  background-image: url("IMG_1608.jpg");
+  background-image: url("boyfriend.png");
   background-repeat: repeat;
 }
 /* The navbar container */
@@ -42,14 +42,14 @@ section botton{
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration:underline;
+  text-decoration: line-through;
 }
 /* Navbar links */
 .botton a:link {
     color: red;
 }
 .botton a {
-
+ccghgvv
     float: left;
     display: block;
     color: blue;
