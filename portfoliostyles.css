@@ -71,7 +71,8 @@ section botton{
 }
 
 .flex-container > div {
-  background-color: #f1f1f1;
+  /*background-color: #f1f1f1;*/
+  background-color:DodgerBlue;
   margin: 10px;
   padding: 20px;
   font-size: 14pt;
