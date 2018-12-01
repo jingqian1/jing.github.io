@@ -29,7 +29,7 @@ header {
 
 body {
   background-image: url("background.png");
-  background-repeat: repeat;
+  background-repeat: repeat; 
 }
 /* The navbar container */
 .nav {
