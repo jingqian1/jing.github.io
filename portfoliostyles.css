@@ -78,7 +78,7 @@ section botton{
   max-width: 60vw;
 
 }
-.flex-container > work1{
+.flex-container div work1{
   background-color:lightblue;
 }
 
