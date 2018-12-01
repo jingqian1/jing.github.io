@@ -19,7 +19,7 @@ header {
     text-align: center;
     font-family: 'EB Garamond', serif;
     font-size: 2em;
-    color: white;
+    color: #ffcc00;
     text-shadow: 2px 2px 4px  #FFE200;
     width: auto;
     max-width: 100%;
@@ -28,21 +28,20 @@ header {
 }
 
 body {
-  background-image: url("background.png");
-  background-repeat: repeat; 
+  background-image: url("back.svg");
+  background-repeat: repeat;
 }
 /* The navbar container */
 .nav {
 	justify-content: center;
 	text-align: center;
     overflow: hidden;
-
 }
+
 section botton{
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: line-through;
 }
 /* Navbar links */
 .botton a:link {
@@ -79,12 +78,16 @@ section botton{
   max-width: 60vw;
 
 }
+.flex-container > work1{
+  background-color:lightblue;
+}
 
 .button {
 
   width: 100%;
   padding: 15px 25px;
   font-size: 24px;
+  text-decoration-color: red;
   text-align: center;
   cursor: pointer;
   outline: none;
@@ -93,7 +96,7 @@ section botton{
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #94CC14;
-  border-bottom: 2px solid #555;
+  border-bottom: 3px solid grey;
 }
 
 .button:hover {background-color: #FFE200}
