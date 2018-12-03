@@ -43,15 +43,10 @@ section.botton{
   text-align: center;
   padding: 14px 16px;
 }
-/* Navbar links */
-botton a:link {
-  color: white;
-}
+
 
 .botton a {
-    float: left;
     display: block;
-    color: blue;
     text-align: center;
     padding: 14px 16px;
     text-decoration:underline;
@@ -126,9 +121,18 @@ botton a:link {
   float: left;
   max-width: 35vw;
 }
-img .clearfix {
+.aboutme img clearfix {
     overflow: auto;
 }
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
 a:link {
   color: white;
 }
