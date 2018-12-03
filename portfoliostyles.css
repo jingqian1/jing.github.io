@@ -44,9 +44,10 @@ section.botton{
   padding: 14px 16px;
 }
 /* Navbar links */
-.botton a:link {
-    color: red;
+botton a:link {
+  color: white;
 }
+
 .botton a {
     float: left;
     display: block;
@@ -71,14 +72,16 @@ section.botton{
 }
 
 .flex-container > div {
-  /*background-color: #f1f1f1;*/
+
   background-color:DodgerBlue;
   margin: 10px;
   padding: 20px;
   font-size: 14pt;
   max-width: 60vw;
+  opacity: 2.0;
 
 }
+
 #flex-container >.work1{
   color:lightblue;
 }
@@ -109,17 +112,31 @@ section.botton{
 }
 
 .aboutme {
-
-    padding: 20px;
+  image: float left;
+  padding: 20px;
   background-color: #FFD700;
   padding-left: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+.aboutme img{
+  width: auto;
 
+  height: auto;
+  float: left;
+  max-width: 35vw;
+}
+img .clearfix {
+    overflow: auto;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: #51B86C;
+}
 footer {
   background-color: #4b8552;
   padding: 0.5rem;
   text-align: center;
-
 }
