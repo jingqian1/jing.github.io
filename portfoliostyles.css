@@ -5,14 +5,6 @@
 
 }
 
-@media (min-width: 900px) {
-.feature {
-		width: 100%;
-    float: none;
-
-
-}
-}
 h3 {
   color: white;
 }
@@ -35,7 +27,7 @@ body {
   background-repeat: repeat;
   font-family: 'EB Garamond', serif;
 }
-/* The navbar container */
+
 .nav {
 	justify-content: center;
 	text-align: center;
@@ -48,12 +40,11 @@ section.botton{
   padding: 14px 16px;
 }
 
-
 .botton a {
     display: block;
     text-align: center;
     padding: 14px 16px;
-    text-decoration:underline;
+    text-decoration: underline;
     font-family: 'EB Garamond', serif;
 
 }
@@ -61,14 +52,6 @@ section.botton{
 /* Links - change color on hover */
 .nav a:hover {
     background-color: #FFE200;
-
-}
-
-.flex-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .flex-container > div {
@@ -77,18 +60,46 @@ section.botton{
   margin: 10px;
   padding: 20px;
   font-size: 14pt;
-  max-width: 60vw;
-  opacity: 2.0;
   font-family: 'EB Garamond', serif;
 
 }
 
-#flex-container >.work1{
-  color:lightblue;
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: auto;
+    padding-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 65%;
+    max-width: 40%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+@media (min-width: 1600px) {
+    .column {
+        flex: 70%;
+        max-width: 75%;
+    }
+}
+
+@media (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
 }
 
 .button {
-
   width: 100%;
   padding: 15px 25px;
   font-size: 24px;
@@ -113,7 +124,6 @@ section.botton{
 }
 
 .aboutme {
-  image: float left;
   padding: 20px;
   background-color: #FFD700;
   padding-left: 1rem;
@@ -124,6 +134,11 @@ section.botton{
 
 
 }
+.aboutme p{
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 .aboutme img{
   width: auto;
 
@@ -131,9 +146,7 @@ section.botton{
   float: left;
   max-width: 50vw;
 }
-.aboutme img clearfix {
-    overflow: auto;
-}
+
 .clearfix:after {
     visibility: hidden;
     display: block;
