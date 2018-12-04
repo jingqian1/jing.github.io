@@ -139,11 +139,13 @@ section.botton{
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
 .aboutme img{
   width: auto;
 
   height: auto;
-  float: left;
+  margin-right:5px;
+  /*float: left;*/
   max-width: 50vw;
 }
 
