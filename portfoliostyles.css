@@ -22,7 +22,8 @@ header {
     overflow: auto;
 }
 header p{
-  font-size: 1em;
+  font-size: 0.7em;
+  color: #C1B0FD;
 }
 body {
   background-image: url("back.svg");
@@ -134,9 +135,8 @@ section.botton{
   padding-bottom: 1rem;
   font-family: 'EB Garamond', serif;
   font-size: 1.5em;
-
-
 }
+
 .aboutme p{
   padding-left: 1rem;
   padding-top: 1rem;
@@ -145,7 +145,6 @@ section.botton{
 
 .aboutme img{
   width: auto;
-
   height: auto;
   margin-right:5px;
   /*float: left;*/
