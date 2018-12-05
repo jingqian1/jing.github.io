@@ -23,11 +23,11 @@ header {
 }
 
 header p {
+
   font-size: 0.7em;
   color: #C1B0FD;
   text-shadow: 1px 1px 1px #a66359;
   background-color: rgba(255, 255, 255, 0.8);
-
 }
 
 body {
