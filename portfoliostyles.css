@@ -34,7 +34,6 @@ body {
 }
 
 .nav {
-  top: 0;
   justify-content: center;
   text-align: center;
   overflow: hidden;
@@ -60,7 +59,7 @@ section.botton {
   background-color: #FFE200;
 }
 
-*/ naZv ul {
+ naZv ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -71,6 +70,7 @@ section.botton {
   margin: auto;
   padding: 0;
 }
+
 
 /*Sets background color of nav list elements and their width and height*/
 nav ul li {
@@ -86,11 +86,15 @@ nav ul li {
   max-width: 100%;
   text-decoration: underline;
   justify-content: center;
+  border-top-left-radius: 8px;
+
+border-bottom-left-radius: 8px;
+
 }
 
 nav ul {
-  padding-left: .1%;
-  padding-right: .1%;
+  padding-left: .5%;
+  padding-right: .5%;
   margin-top: 0;
 }
 
