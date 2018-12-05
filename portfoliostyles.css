@@ -21,7 +21,9 @@ header {
     height: auto;
     overflow: auto;
 }
-
+header p{
+  font-size: 1em;
+}
 body {
   background-image: url("back.svg");
   background-repeat: repeat;
@@ -29,6 +31,7 @@ body {
 }
 
 .nav {
+  top: 0;
 	justify-content: center;
 	text-align: center;
   overflow: hidden;
@@ -85,7 +88,7 @@ section.botton{
     vertical-align: middle;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 2000px) {
     .column {
         flex: 70%;
         max-width: 75%;
