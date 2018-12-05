@@ -2,9 +2,8 @@
   /*everything will automatically center*/
   margin: auto;
   width: 90vw;
-  display: grid;
-  grid-template-columns: 100fr;
-  grid-template-rows: 2fr, 2fr, 2fr, 2fr;
+
+
 }
 
 header {
@@ -21,7 +20,6 @@ header {
   max-width: 100%;
   height: auto;
   overflow: auto;
-  grid-row: 1/2
 }
 
 body {
@@ -38,8 +36,7 @@ img {
 }
 
 naZv ul {
-  grid-row: 1;
-  grid-column: 2 / 3;
+    margin-top: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

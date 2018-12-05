@@ -40,6 +40,7 @@ body {
   overflow: hidden;
 }
 
+/*
 section.botton {
   color: white;
   text-align: center;
@@ -57,6 +58,55 @@ section.botton {
 /* Links - change color on hover */
 .nav a:hover {
   background-color: #FFE200;
+}
+
+*/ naZv ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 0;
+}
+
+/*Sets background color of nav list elements and their width and height*/
+nav ul li {
+  list-style-type: none;
+  background: #FFE613;
+  height: 2rem;
+  width: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-color: #94CC14;
+  border-width: 2px;
+  text-align: center;
+  max-width: 100%;
+  text-decoration: underline;
+  justify-content: center;
+}
+
+nav ul {
+  padding-left: .1%;
+  padding-right: .1%;
+  margin-top: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 2em;
+  color: #e7d067;
+}
+
+nav ul li:active {
+  background: #E9892f;
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid #555;
 }
 
 .flex-container>div {
