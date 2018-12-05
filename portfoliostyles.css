@@ -2,29 +2,31 @@
   /*everything will automatically center*/
   margin: auto;
   width: 100vw;
-
 }
 
 h3 {
   color: white;
 }
+
 header {
-    background-size: auto 100%;
-    padding: 2rem;
-    text-align: center;
-    font-family: 'EB Garamond', serif;
-    font-size: 2.6em;
-    color: #ffcc00;
-    text-shadow: 2px 2px 4px #a66359;
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    overflow: auto;
+  background-size: auto 100%;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  font-size: 2.6em;
+  color: #ffcc00;
+  text-shadow: 2px 2px 4px #a66359;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  overflow: auto;
 }
-header p{
+
+header p {
   font-size: 0.7em;
   color: #C1B0FD;
 }
+
 body {
   background-image: url("back.svg");
   background-repeat: repeat;
@@ -33,84 +35,77 @@ body {
 
 .nav {
   top: 0;
-	justify-content: center;
-	text-align: center;
+  justify-content: center;
+  text-align: center;
   overflow: hidden;
 }
 
-section.botton{
+section.botton {
   color: white;
   text-align: center;
   padding: 14px 16px;
 }
 
 .botton a {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: underline;
-    font-family: 'EB Garamond', serif;
-
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+  font-family: 'EB Garamond', serif;
 }
 
 /* Links - change color on hover */
 .nav a:hover {
-    background-color: #FFE200;
+  background-color: #FFE200;
 }
 
-.flex-container > div {
-
-  background-color:DodgerBlue;
+.flex-container>div {
+  background-color: DodgerBlue;
   margin: 10px;
   padding: 20px;
   font-size: 14pt;
   font-family: 'EB Garamond', serif;
-
 }
 
 .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: auto;
-    padding-right: auto;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Create four equal columns that sits next to each other */
 .column {
-    flex: 65%;
-    max-width: 40%;
-    padding: 0 4px;
+  flex: 65%;
+  max-width: 40%;
+  padding: 0 4px;
 }
 
 .column img {
-    margin-top: 8px;
-    vertical-align: middle;
+  margin-top: 8px;
+  vertical-align: middle;
 }
 
 @media (min-width: 2000px) {
-    .column {
-        flex: 70%;
-        max-width: 75%;
-    }
+  .column {
+    flex: 70%;
+    max-width: 75%;
+  }
 }
 
 @media (max-width: 600px) {
-    .column {
-        flex: 100%;
-        max-width: 100%;
-    }
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 
 .button {
   width: 100%;
   padding: 15px 25px;
   font-size: 24px;
-  text-decoration-color: red;
   text-align: center;
   cursor: pointer;
-  outline: none;
   color: #fff;
   background-color: #FFE613;
   border: none;
@@ -119,7 +114,9 @@ section.botton{
   border-bottom: 3px solid grey;
 }
 
-.button:hover {background-color: #FFE200}
+.button:hover {
+  background-color: #FFE200
+}
 
 .button:active {
   background-color: #FFD700;
@@ -137,35 +134,37 @@ section.botton{
   font-size: 1.5em;
 }
 
-.aboutme p{
+.aboutme p {
   padding-left: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-.aboutme img{
+.aboutme img {
   width: auto;
   height: auto;
-  margin-right:5px;
+  margin-right: 5px;
   /*float: left;*/
   max-width: 50vw;
 }
 
 .clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
 }
 
 a:link {
   color: white;
 }
+
 a:visited {
   color: #51B86C;
 }
+
 footer {
   background-color: #4b8552;
   padding: 0.5rem;
