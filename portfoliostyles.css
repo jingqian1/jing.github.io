@@ -39,21 +39,6 @@ body {
   overflow: hidden;
 }
 
-/*
-section.botton {
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-}
-
-.botton a {
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: underline;
-  font-family: 'EB Garamond', serif;
-}
-
 /* Links - change color on hover */
 .nav a:hover {
   background-color: #FFE200;
