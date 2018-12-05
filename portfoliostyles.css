@@ -59,7 +59,7 @@ section.botton {
   background-color: #FFE200;
 }
 
- naZv ul {
+naZv ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -70,7 +70,6 @@ section.botton {
   margin: auto;
   padding: 0;
 }
-
 
 /*Sets background color of nav list elements and their width and height*/
 nav ul li {
@@ -87,9 +86,7 @@ nav ul li {
   text-decoration: underline;
   justify-content: center;
   border-top-left-radius: 8px;
-
-border-bottom-left-radius: 8px;
-
+  border-bottom-left-radius: 8px;
 }
 
 nav ul {
@@ -152,30 +149,6 @@ li {
     flex: 100%;
     max-width: 100%;
   }
-}
-
-.button {
-  width: 100%;
-  padding: 15px 25px;
-  font-size: 24px;
-  text-align: center;
-  cursor: pointer;
-  color: #fff;
-  background-color: #FFE613;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #94CC14;
-  border-bottom: 3px solid grey;
-}
-
-.button:hover {
-  background-color: #FFE200
-}
-
-.button:active {
-  background-color: #FFD700;
-  box-shadow: 0 5px #94CC14;
-  transform: translateY(4px);
 }
 
 .aboutme {
