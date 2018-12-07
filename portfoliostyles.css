@@ -105,6 +105,12 @@ ul li a {
   font-size: 1.5em;
 }
 
+li {
+  float: left;
+  border-right: 2px solid #4CAF50;
+  border-bottom: 2px solid #4CAF50;
+}
+
 ul.topnav li a:hover:not(.active) {
   background-color: #4CAF50;
 }
@@ -134,7 +140,7 @@ ul.topnav li.right {
 
 .aboutme {
   padding: 20px;
-  background-color: #FFD700;
+  background-color: #FF9F00;
   padding-left: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -146,7 +152,7 @@ ul.topnav li.right {
   padding-left: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  color: #4b8552
+  color: black;
 }
 
 .aboutme img {
