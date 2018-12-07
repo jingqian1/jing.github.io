@@ -13,7 +13,7 @@ header {
   padding: 2rem;
   text-align: center;
   font-family: 'EB Garamond', serif;
-  font-size: 2.6em;
+  font-size: 3em;
   color: #ffcc00;
   text-shadow: 2px 2px 4px #a66359;
   width: auto;
@@ -23,7 +23,6 @@ header {
 }
 
 header p {
-
   font-size: 0.7em;
   color: #C1B0FD;
   text-shadow: 1px 1px 1px #a66359;
@@ -36,68 +35,6 @@ body {
   font-family: 'EB Garamond', serif;
   color: #F5F5F5;
   letter-spacing: .5px;
-}
-
-.nav {
-  justify-content: center;
-  text-align: center;
-  overflow: hidden;
-}
-
-/* Links - change color on hover */
-.nav a:hover {
-  background-color: #FFE200;
-}
-
-naZv ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  list-style-type: none;
-  width: auto;
-  max-width: 100%;
-  height: auto;
-  margin: auto;
-  padding: 0;
-}
-
-/*Sets background color of nav list elements and their width and height*/
-nav ul li {
-  list-style-type: none;
-  background: #FFE613;
-  height: 2rem;
-  width: auto;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  border-color: #94CC14;
-  border-width: 2px;
-  text-align: center;
-  max-width: 100%;
-  text-decoration: underline;
-  justify-content: center;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-}
-
-nav ul {
-  padding-left: .5%;
-  padding-right: .5%;
-  margin-top: 0;
-}
-
-nav ul li a {
-  text-decoration: none;
-  font-size: 2em;
-  color: #e7d067;
-}
-
-nav ul li:active {
-  background: #E9892f;
-}
-
-li {
-  text-align: center;
-  border-bottom: 1px solid #555;
 }
 
 .flex-container>div {
@@ -134,6 +71,60 @@ li {
   }
 }
 
+body {
+  margin: 0;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FF9F00;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+
+li {
+  border-color: #94CC14;
+  border-width: 3px;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: #4CAF50;
+}
+
+ul.topnav li a.active {
+  background-color: #4CAF50;
+}
+
+ul.topnav li.right {
+  float: right;
+}
+
+@media screen and (max-width: 700px) {
+
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+}
+
 @media (max-width: 700px) {
   .column {
     flex: 100%;
@@ -155,14 +146,33 @@ li {
   padding-left: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  color: #4b8552
 }
 
 .aboutme img {
   width: auto;
   height: auto;
-  margin-right: 5px;
+  margin: auto;
   /*float: left;*/
   max-width: 50vw;
+}
+
+#projects h2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #FFD700;
+  text-align: center;
+  background-color: DodgerBlue;
+  font-size: 2em;
+}
+
+#aboutme h2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #FFD700;
+  text-align: center;
+  background-color: DodgerBlue;
+  font-size: 2em;
 }
 
 .clearfix:after {
@@ -172,14 +182,6 @@ li {
   content: " ";
   clear: both;
   height: 0;
-}
-
-a:link {
-  color: white;
-}
-
-a:visited {
-  color: #51B86C;
 }
 
 footer {
